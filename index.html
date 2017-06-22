@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Orbitron:500' rel='stylesheet' type='text/css'>
+  
+</head>
+
+<!-- Un id au body est inutile puisque le body est déjà unique par élément Html -->
+<body id="main">
+  
+  	<h1 class="name">My ToDo</h1>
+
+  	<h2>Il me reste  <span class="emphase"> </span> tâches.</h2>
+
+		<ul class="checkbox">
+<!-- 			Pourquoi est-ce commenté ?
+			Débug ?
+			Test ?
+			Utile ? Si non, à supprimer. Car cela utilise de la bande passante pour rien. -->
+
+			<!-- <li class="box"><input id="square" class="element" type="checkbox" name="Test 1">Lorem</li>
+			<li class="box2"><input id="square" class="element" type="checkbox" name="Test 2">Ipsum</li>
+			<li class="box"><input id="square" class="element" type="checkbox" name="Test 3">Task</li>
+			<li class="box2"><input id="square" class="element" type="checkbox" name="Test 4">Try</li> -->
+		</ul>
+
+		<form class="texte">
+<!-- 			id=zone : c'est vague. Sois plus précis pour éviter toute ambigüité quand
+			tu vas le manipuler dans le js
+			id="inputTask" -->
+			<input id="zone" type="text" placeholder="Ce que je dois faire ..." />
+		</form>
+
+	<div class="resultat">
+		<ul class="menu">
+			<!-- <li id="all"><button>All</li>
+			<li id="active"><button>Active</li>
+			<li id="completed"><button>Completed</li>
+			<li id="allcompleted"><button>All Completed</li> -->
+			<button id="all" type="button">All</button>
+			<button id="active" type="button">Active</button>
+			<button id="completed" type="button">Completed</button>
+			<button id="allcompleted "type="button">All Completed</button>
+		</ul>
+	</div>
+
+	<footer>
+		<p>Double Click pour éditer le ToDo.</p>
+		<p> &copy; Syljay. </p>
+	</footer>
+
+<!-- AVANT LE BODY ! -->
+<script src="jquery.js"></script>
+<script src="js/app.js"></script>
+</body>
+
+
+
+</html>

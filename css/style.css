@@ -1,0 +1,159 @@
+body {
+	background: #01579b;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: 'Playball';
+  background: #03A9F4;
+  padding: 40px;
+  margin: 0;
+  color: #BDBDBD;
+  text-align: center;
+}
+
+h2 {
+	font-size: 2em;
+	font-family: 'Orbitron';
+	background: #03A9F4;
+	padding: 40px;
+	margin: 0;
+	color: #333;
+	text-align: center;
+}
+
+ul.checkbox {
+  background: #03A9F4;
+  color: #333;
+  width: 100%;
+  padding-top: 0;
+  font-family: 'Orbitron';
+  font-size: 30px;
+}
+
+.checkbox {
+  width: 100%;
+  padding: 0;
+}
+
+form.texte {
+  width: 100%;
+  height: 55px;
+  padding: 0;
+}
+
+ul.menu {
+  padding: 0px;
+  margin: 0px;
+  display: inline;
+  width: 100%;
+  height: 50px;
+}
+
+.menu {
+  display: inline;
+}
+
+li {
+  font-family: 'Playball';
+  font-size: 2em;
+  background: #0091EA;
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+  /*display: inline;*/
+  padding: 0;
+  width: 150px;
+  height: 50px;
+}
+
+li.box {
+  width: 100%;
+  height: 55px;
+  font-family: 'Orbitron';
+  text-align: left;
+  background: #03A9F4;
+}
+
+li.box2 {
+  width: 100%;
+  height: 65px;
+  font-family: 'Orbitron';
+  text-align: left;
+  background: #64B5F6;
+}
+
+.barretext {
+  text-decoration: line-through;
+  color: #ddd;
+}
+
+input#zone {
+  height: 45px;
+  background: #E0E0E0;
+  font-family: 'Orbitron';
+  text-indent: 55px;
+  width: 100%;
+  padding-left: 0;
+}
+
+#zone {
+  width: 100%;
+  height: 20px;
+  float: left;
+  border: none;
+  padding: 40px 0;
+  font-size: 2em;
+  font-family: 'Orbitron';
+  text-indent: 55px;
+  color: #333;
+}
+
+button {
+  width: 466px;
+  height:35px;
+  border: none;
+  height: 100px;
+  background: #64B5F6;
+  font-size: 2em;
+  font-family: 'Playball';
+  color: #E0E0E0;
+  display: inline;
+  /*padding: 0;*/
+  margin-right: 2px;
+  color: #BDBDBD;
+}
+
+div.resultat {
+  width: 100%;
+  padding-right: 10px;
+}
+
+/*li#all {
+  font-family: 'Playball';
+  font-size: 2em;
+  background: #0091EA;
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+  display: inline;
+  padding: 0;
+  width: 150px;
+  height: 50px;
+}*/
+
+footer {
+  color: #BDBDBD;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Playball';
+}
+
+p {
+  display: inline;
+}
+
+div.list {
+  width: 100%;
+  height: 50px;
+}
